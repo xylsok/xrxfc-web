@@ -1,0 +1,155 @@
+.introduction-title {
+	position: relative;
+	padding-left: 50px;
+	display: inline-block;
+	text-align: left;
+}
+
+.introduction-title:before {
+	display: block;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.title-hr {
+	border-top: 2px solid #00a9dd;
+	width: 100px;
+	display: inline-block;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+.introduction-content {
+	line-height: 30px;
+	word-break: break-all;
+}
+
+.introduction-technology-left {
+	background: #2a2828;
+	font-weight: 300;
+	color: #fff;
+	padding: 10px 35px 30px 35px;
+}
+
+.introduction-technology-right img {
+	height: 322px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.font-weight-300 {
+	font-weight: 300;
+}
+
+.introduction-title-box {
+	position: relative;
+	padding-left: 220px;
+}
+
+.introduction-title-pic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 180px;
+	height: 100%;
+	background: url("/assets/images/introduction.jpg") no-repeat center center;
+	background-size: cover;
+	border: 5px solid #fff;
+}
+
+.introduction-talent-right,
+.introduction-talent {
+	position: relative;
+}
+
+.introduction-talent > span,
+.introduction-talent-right > span {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	background: #000;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
+
+}
+
+.introduction-talent > span {
+	left: 0;
+}
+
+.introduction-talent-right > span {
+	left: 50px;
+}
+
+.introduction-talent-color {
+	color: #115aa7;
+}
+
+.introduction-talent-color > span {
+	background: #115aa7;
+}
+
+.introduction-talent-border {
+	height: 86px;
+	width: 70%;
+	position: absolute;
+	right: 47px;
+	bottom: 0;
+	border-width: 0 1px 1px 0;
+	border-color: #a0a0a0;
+	border-style: solid;
+}
+
+.introduction-talent-right .introduction-talent-border {
+	right: 0;
+}
+
+.introduction-talent-color .introduction-talent-border {
+	border-color: #115aa7;
+}
+
+.introduction-talent-circle {
+	right: -4px;
+	top: 0;
+}
+
+.introduction-talent-bottom-circle,
+.introduction-talent-circle {
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #a0a0a0;
+}
+
+.introduction-talent-bottom-circle {
+	bottom: -4px;
+	left: 0;
+}
+
+.introduction-talent-color .introduction-talent-bottom-circle,
+.introduction-talent-color .introduction-talent-circle {
+	background: #115aa7;
+}
+
+.introduction-content-list {
+	padding: 10px 20px;
+	background: #00a9dd;
+	min-height: 100px;
+	color: #fff;
+	font-weight: 300;
+	border-right: 1px solid #e8e8e8;
+
+}
+
+.introduction-content-list li {
+	line-height: 28px;
+}

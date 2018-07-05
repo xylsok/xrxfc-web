@@ -1,0 +1,39 @@
+.aboutUs-banner {
+	background: url("/assets/images/aboutUs-bg.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.aboutUs-banner-title {
+	color: #fff;
+	font-weight: 300;
+	padding-top: 140px;
+	letter-spacing: 2px;
+}
+
+.aboutUs-box {
+	margin-top: -39px;
+}
+
+.manage-navbar {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	background: #00a9dd;
+	color: #fff;
+	font-weight: 300;
+}
+
+.manage-navbar:hover,
+.manage-navbar.active {
+	background: rgba(240, 197, 0, .8);
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+
+.aboutUs-list {
+	width: 120px;
+	display: inline-block;
+	margin-right: 1px;
+	line-height: 38px;
+}

@@ -1,0 +1,6 @@
+.home-banner{
+  background: url("/assets/images/slider.png") no-repeat center center;
+  background-size: cover;
+  height: 270px;
+  margin-top: -20px;
+}

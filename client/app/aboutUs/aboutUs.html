@@ -1,0 +1,25 @@
+<navbar></navbar>
+<div class="flex-full-view-free">
+	<div class="datum-banner-box aboutUs-banner">
+		<!--<img class="banner-img" src="assets/images/down-bg.jpg"/>-->
+		<div class="container">
+			<div class="font-size-28 aboutUs-banner-title">
+				<span>关于我们</span><br/>
+				<span class="font-size-18">ABOUT US</span>
+			</div>
+		</div>
+	</div>
+	<div class="container aboutUs-box">
+		<div class="row text-right">
+			<div class="aboutUs-list margin-top-1" ng-repeat="m in Sysmenu">
+			<a class="manage-navbar " ui-sref="{{m.state}}"
+			   ng-class="{'active':isSysmenuActive(m)}">
+				<span>{{m.name}}</span>
+			</a>
+		</div>
+		</div>
+	</div>
+	<div ui-view>
+	</div>
+</div>
+<footer></footer>

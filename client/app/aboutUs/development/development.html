@@ -1,0 +1,12 @@
+<div class="container margin-vertical-30">
+	<div class="row bgc-fff position-r padding-top-120 padding-left-50 padding-right-50 padding-bottom-50">
+		<div class="development-icon-box"></div>
+		<h3 class="development-title">发展历程</h3>
+		<div ng-repeat="i in milest |orderBy:time:true" class="col-sm-12 development-list">
+			<div class="development-circle"></div>
+			<div class="development-time">{{i.time}}</div>
+			<div class="color-555 development-border-box padding-top-50 padding-right-40">{{i.content}}</div>
+		</div>
+	</div>
+</div>
+
